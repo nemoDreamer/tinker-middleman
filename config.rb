@@ -1,3 +1,5 @@
+require "extensions/middleman-typekit"
+
 ###
 # Compass
 ###
@@ -41,6 +43,11 @@ activate :livereload
 # Activate Disqus extension
 activate :disqus do |d|
   d.shortname = "nemodreaming"
+end
+
+# Activate Typekit extension
+activate :typekit do |t|
+  t.kit_id = "sck0bdc"
 end
 
 # Create a folder for each .html file and place the built template file as the
