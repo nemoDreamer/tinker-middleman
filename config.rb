@@ -33,10 +33,19 @@
 ###
 
 # Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
+activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# activate :livereload
+activate :livereload
+
+# Activate Disqus extension
+activate :disqus do |d|
+  d.shortname = "nemodreaming"
+end
+
+# Create a folder for each .html file and place the built template file as the
+# index of that folder
+activate :directory_indexes
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -44,6 +53,10 @@
 #     "Helping"
 #   end
 # end
+
+###
+# Folders
+###
 
 set :css_dir, 'css'
 

@@ -1,0 +1,21 @@
+// = require normalize.css
+// = require main.css
+
+@import "compass/css3"
+
+$default-border-radius: 5px
+
+p, ul, ol
+  font-family: Garamond, Times, serif
+
+pre
+  padding: 1em
+  font-size: .8em
+  color: #ccc
+  background-color: #333
+  @include border-radius
+  @include single-box-shadow(#000, 0, 0, 10px, 0, inset)
+
+#wrapper
+  width: 640px
+  margin: 1em auto
