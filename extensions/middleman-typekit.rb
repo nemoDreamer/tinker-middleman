@@ -11,7 +11,6 @@ class Typekit < Middleman::Extension
 
   helpers do
     def typekit
-      puts typekit_kit_id
       if typekit_kit_id
           %Q{
             <script type="text/javascript" src="//use.typekit.net/#{typekit_kit_id}.js"></script>
