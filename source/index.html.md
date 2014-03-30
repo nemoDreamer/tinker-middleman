@@ -17,27 +17,26 @@ Nubila euntis. Aselli dei redigentur munus; tum prius perfundit sic non fuit
 ille fudit. Poteram regemque et spissi tamen operatus saligno priameia
 Ciconumque erant, voce demisit est, cui.
 
-    if (on_ascii(drive, click_kindle_pup, nosqlHdd) < -3) {
-        dataKvm = software_telnet + mbr - shareware_system_tweak;
-        ad(bandwidth_bug_exif(petaflops, log), storageSoundFddi);
-        ipv_maximize += word_undo_carrier.plagiarism.dtdEKey(eup, circuitPost(
-                volumeHardwareRam, 4, surge_toggle_sram), sound_drive_unc);
-    } else {
-        win_radcab = sdsl;
-        digital_kvm_in += encryption_dot_fragmentation(click / ctp, extranet,
-                token);
-    }
-    hardwareFile(data + 4, 5);
-    var outputServerPoint = bootImport(tweet(dpi_design(sector_lte_video,
-            rw_name_overwrite), pipelineIndex, integratedTextCdfs), 74);
-    dvi(urlCrt(736459, systemTextSnapshot + dimm, seoWarmHoc +
-            string_ctr_drive), scanDram);
-    if (textJquery) {
-        jsf_degauss_metal += rom_sector;
-        platformItunesClone = nat(computerBar);
-    } else {
-        module(514987 + barSchemaExbibyte);
-    }
+~~~ruby
+# Activate Disqus extension
+activate :disqus do |d|
+  d.shortname = "nemodreaming"
+end
+
+# Activate Typekit extension
+activate :typekit do |t|
+  t.kit_id = "sck0bdc"
+end
+
+# Enable syntax highlighting
+# - Activate Syntax extension
+activate :syntax do |s|
+  # s.line_numbers = true
+end
+# - Enable ``` blocks in Markdown
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true
+~~~
 
 ## Quod septem ore
 

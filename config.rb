@@ -50,6 +50,15 @@ activate :typekit do |t|
   t.kit_id = "sck0bdc"
 end
 
+# Enable syntax highlighting
+# - Activate Syntax extension
+activate :syntax do |s|
+  # s.line_numbers = true
+end
+# - Enable ``` blocks in Markdown
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true, :smartypants => true
+
 # Create a folder for each .html file and place the built template file as the
 # index of that folder
 activate :directory_indexes

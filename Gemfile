@@ -12,3 +12,7 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 
 # Disqus extension
 gem "middleman-disqus"
+
+# Syntax highlighting
+gem "redcarpet"
+gem "middleman-syntax"
